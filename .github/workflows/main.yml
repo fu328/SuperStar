@@ -20,7 +20,7 @@ jobs:
           python-version: '3.9'  # 选择要用的Python版本
  
       - name: 安装依赖包
-        run: | # 安装依赖包
+        run: | # 安装依赖包 
           pip install -r ./requirements.txt 
           
       
